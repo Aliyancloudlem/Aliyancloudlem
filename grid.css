@@ -1,0 +1,51 @@
+*{
+    background-color: rgb(109, 228, 188);
+}
+.container{
+    display: grid;
+ grid-template-columns:30% 30% 30% ;
+ grid-template-rows: 200px 100px 60px 60px ;
+    border: 5px solid rgb(255, 7, 7);
+    row-gap: 20px;
+    column-gap: 5px;
+    height: 1000px;clear: ;
+    grid-template-areas: "hdr hdr hdr hdr"
+    "sbr  mn mn mn"
+    "sbr mn mn mn"
+    "ft ft ft ft";
+
+}
+.box{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20pxpx;
+
+}
+#box-1{
+    grid-area: hdr;
+    
+
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+}
+
+#box-2{
+    grid-area: sbr;
+    width: 100px;
+        /* height: 200px; */
+}
+
+#box-3{
+    grid-area: ft;
+    row-gap: 20px;
+    height: 200px;
+}
+
+#box-4{
+        width: 900px;
+    height: 176px;
+}
+#hed{
+    color: blue;
+    align-items: center;
+    font-size: large;
+}

@@ -1,0 +1,47 @@
+.head{
+    background-color: rgb(88, 117, 107);
+padding-left: 30%;
+padding-top: 40px;
+height: 100px;
+
+button{
+    background-color: rgb(87, 87, 236);
+    margin-left: 60px;
+    size: 50px;
+    }
+}
+
+.h2{
+    text-align: center;
+    color: rgb(15, 15, 15);
+    font-size: large;
+    background-color: rgb(91, 75, 105);
+    height: 50px;
+    padding: 20px;
+}
+
+.dev{
+background-color: rgb(107, 128, 121);
+text-align: left;
+margin-right: 900px;
+height: 800px;
+text-align: center;
+
+ol{
+text-align: left;
+
+}
+}
+
+.ope{
+    text-align:right
+    
+}
+.ftr{
+    text-align: center;
+    background-color: rgb(38, 38, 65);
+    size: 50px;
+    padding-top: 50px;
+    margin-left:400px ;
+    height: 100px;
+}
